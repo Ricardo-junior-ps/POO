@@ -4,9 +4,9 @@ class pessoa:
         self.idade = idade
         self.cidade = cidade
 
-    def apresentacao(self):
+    def apresentar(self):
         print(56*"-")
-        print(f"Olá, meu nome é {self.nome}, tehho {self.idade} anos e moto em {self.cidade}")
+        print(f"Olá, meu nome é {self.nome}, tehho {self.idade} anos e moro em {self.cidade}")
         print(56*"-")
 
 pessoa1 = pessoa("João", "22", "São Paulo")
